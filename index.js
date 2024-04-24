@@ -6,3 +6,16 @@ try {
 } catch(err) {
     console.log('Error here :', err)
 }
+
+
+// Basic asynchronous programing
+
+console.log('one')
+console.log('two')
+
+setTimeout(() => {
+    console.log('hello')
+}, 3000)
+
+console.log('three')
+console.log('four')
